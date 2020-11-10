@@ -1,6 +1,6 @@
 # Developer Challenge
 
-We would like you to create a simple program to help us manage books at a library. The program should allow us to write a script that interacts with the copies of books at a library.
+We would like you to create a simple program to help us manage books at a library. The program should allow us to write a script that interacts with the copies of books and check the stock at the end.
 
 We are not looking for anything clever here, just an example of how you use your chosen programming language to solve a simple problem and how you organize your code.
 
@@ -8,7 +8,7 @@ We are not looking for anything clever here, just an example of how you use your
 
 The list books that can be added to the library is available in the [`catalog.csv`](catalog.csv) file in this repo. The first column in the CSV is the ISBN of the book, followed by the title, author, and publication date.
 
-Please provide a method that can takes an ISBN and prints all the catalog information about that book. For example:
+Please provide a method that can take an ISBN and prints all the catalog information about that book. For example:
 
 ```ruby
 my_library.lookup('9780143111597')
@@ -17,7 +17,7 @@ my_library.lookup('9780143111597')
 
 ## 2. Add books to the library
 
-You can add a book from the catalog to the library, and optionally add multiple copies of the same book at once. Doing this makes
+You can add a book from the catalog to the library, and optionally add multiple copies of the same book at once.
 
 ```ruby
 my_library.add('9781472258229')
